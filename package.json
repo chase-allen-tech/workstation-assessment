@@ -1,0 +1,25 @@
+{
+  "name": "hapi_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/code": "^9.0.2",
+    "@hapi/hapi": "^21.2.0",
+    "@hapi/lab": "^25.1.0",
+    "axios": "^1.2.3",
+    "fs": "^0.0.1-security",
+    "json-2-csv": "^3.18.0",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
